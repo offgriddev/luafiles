@@ -33,3 +33,5 @@ require 'nv-neoscroll'
 require 'nv-nerdtree'
 -- LSP and external packages
 require 'nv-mason'
+-- Py formatting
+require 'nv-black'

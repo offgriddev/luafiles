@@ -1,12 +1,27 @@
--- There are 3 styles: day, night and storm
-vim.g.tokyonight_style = 'night'
-vim.g.tokyonight_italic_comments = true
-vim.g.tokyonight_italic_keywords = false
-vim.g.tokyonight_italic_functions = true
-vim.g.tokyonight_italic_variables = false
-vim.g.tokyonight_transparent = false
-vim.g.tokyonight_hide_inactive_statusline = false
-vim.g.tokyonight_sidebars = {'qf', 'vista_kind', 'terminal', 'packer'}
-vim.g.tokyonight_dark_sidebar = true
-vim.g.tokyonight_dark_float = true
-vim.cmd 'colorscheme tokyonight'
+-- Default options:
+vim.o.background = "dark"
+require("gruvbox").setup({
+  terminal_colors = true, -- add neovim terminal colors
+  undercurl = true,
+  underline = true,
+  bold = true,
+  italic = {
+    strings = true,
+    emphasis = true,
+    comments = true,
+    operators = false,
+    folds = true,
+  },
+  strikethrough = true,
+  invert_selection = false,
+  invert_signs = false,
+  invert_tabline = false,
+  invert_intend_guides = false,
+  inverse = true, -- invert background for search, diffs, statuslines and errors
+  contrast = "", -- can be "hard", "soft" or empty string
+  palette_overrides = {},
+  overrides = {},
+  dim_inactive = false,
+  transparent_mode = false,
+})
+vim.cmd("colorscheme gruvbox")

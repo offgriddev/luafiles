@@ -16,7 +16,7 @@ local use = require('packer').use
 return require('packer').startup(
 function()
     -- Theme
-    use 'folke/tokyonight.nvim'
+    use 'ellisonleao/gruvbox.nvim'
     -- Status line
     use { 'glepnir/galaxyline.nvim', requires = 'kyazdani42/nvim-web-devicons' }
     -- For hex color

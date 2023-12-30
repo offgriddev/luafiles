@@ -1,21 +1,6 @@
 
 # Lua Neovim Files
 
-## Contents
-
-- [Screenshots](#screenshots)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Optional](#optional)
-
-### Screenshots
-
-![Pic1](https://raw.githubusercontent.com/justanoobcoder/files/master/nvim/images/pic1.png)
-![Pic2](https://raw.githubusercontent.com/justanoobcoder/files/master/nvim/images/pic2.png)
-![Pic3](https://raw.githubusercontent.com/justanoobcoder/files/master/nvim/images/pic3.png)
-![Pic3](https://raw.githubusercontent.com/justanoobcoder/files/master/nvim/images/pic4.png)
-![Pic3](https://raw.githubusercontent.com/justanoobcoder/files/master/nvim/images/pic5.png)
-
 ### Requirements
 
 - Neovim (version >= 0.7.0), run `nvim -v` to check neovim version.
@@ -33,7 +18,7 @@ git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pac
 Step 2: Run these following commands (back up your config if you already had one):
 ```
 rm -rf ~/.config/nvim
-git clone https://github.com/justanoobcoder/nvim.git ~/.config/nvim
+git clone https://github.com/offgriddev/luafiles.git ~/.config/nvim
 ```
 Step 3: Run this following command:
 ```
